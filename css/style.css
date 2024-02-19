@@ -104,12 +104,9 @@ nav ul li a:hover, nav ul li a:focus {
 
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
 .skip a{
-  left: 0;
-  padding: 6px;
-  z-index: 1; /*ensures it's above other content*/
-  top: -40px;
   position: absolute; 
-
+  top: -40px;
+  z-index: 1;
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
